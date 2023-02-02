@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "scheme": "drytelecom",
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    },
+    "name": "Dry Telecom",
+    "slug": "app-whitelabel",
+    "version": "3.0.5",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "buildNumber": "1",
+      "bundleIdentifier": "br.com.template.expo.managed"
+    },
+    "android": {
+      "package": "br.com.template.expo.managed",
+      "versionCode": 1,
+      "permissions": [],
+    },
+    "description": ""
+  }
+}
